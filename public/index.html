@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/style.css">
+
+    <script src="/app1.js" defer></script>
+    <script src="/app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="logo-container">
+      <img src="img/title.jpg" alt="Logo">
+    </div>
+    <h1 class="header-title">SKY ARCHITECTURE</h1>
+  </header>
+  
+  
+  <div class="wrapper">
+    <h1>Interior Design</h1>
+    <nav class="text">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+
+  
+
+  <div class="slider">
+    <img
+      id="img-1"
+      src="img/banner1.jpg"
+      alt="Image 1"
+    />
+    <img
+      id="img-2"
+      src="img/banner2.jpg"
+      alt="Image 2"
+    />
+    <img
+      id="img-3"
+      src="img/banner3.jpg"
+      alt="Image 3"
+    />
+  </div>
+  <div class="navigation-button">
+    <span class="dot active" onclick="changeSlide(0)"></span>
+    <span class="dot" onclick="changeSlide(1)"></span>
+    <span class="dot" onclick="changeSlide(2)"></span>
+  </div>
+</header>
+<main class="main">
+  <section class="section1">
+    <h2>Welcome to our Interior Design Services</h2>
+    <p>At our interior design and architecture firm, we believe that form and function go hand in hand. Our team of talented designers and architects is dedicated to creating spaces that are both aesthetically pleasing and highly functional. We have a passion for innovation and are always exploring new ways to push the limits of design. With years of experience and a diverse portfolio of successful projects, we have the skills and expertise to bring your vision to life. Whether you're looking to renovate a single room or embark on a new construction project, we would be honored to work with you to create a space that truly reflects your style. </p>
+    <a href="#" class="button">Learn More</a>
+  </section>
+  <section class="section2">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <img src="img/s1.webp" alt="Service 1">
+        <h3>Interior Design</h3>
+        <p><h6>Furniture Layout and Space planning. Furniture & Fabric and Accessories Selections and Specifications.</h6></p>
+      </div>
+      <div class="service">
+        <img src="img/s61.avif" alt="Service 2">
+        <h3>You will get photo realistic 3D renderings for your Living Room</h3>
+        <p><h6>I will help you create beautiful, photo realistic renderings of your living room.
+
+          The price of the project will depend on the size of the space , the level of the details. and deadlines.
+          So, please send me information about the project.
+          
+          I look forward to hearing from you.</h6></p>
+      </div>
+      <div class="service">
+        <img src="img/s31.avif" alt="Service 3">
+        <h3>You will get beautiful 3D renderings for your kitchen or dining room</h3>
+        <p><H6>You're looking for quality renderings for your kitchen design. You've come to the right place!
+
+          I will help you create beautiful, photo realistic renderings of your kitchen design in which you're free to pick cabinet style, lighting fixures, hardware, appliances, flooring, tiles, etc. The final renderings will have similar realism and quality to my sample work posted in the gallery.
+          
+          My pricing plans are based on the complexity of a project. The more details you want to include in the renderings, the more it'll cost. So please send me information about the project so that I can tell you which package to choose!
+          
+          So, if you have already had a design and are looking for 3D renders for presentation, I'll be happy to help.
+          
+          I look forward to hearing from you.</H6>
+      </div>
+    </div>
+    <div class="services">
+      <div class="service">
+        <img src="img/s41.avif" alt="Service 1">
+        <h3>Interior Design</h3>
+        <p><h3>A Room/ Space Interior Design.</h3></p>
+        <br><h6>You will get a designed room space, it may be either Kitchen, bathroom, living room, bedroom or any other space as required. To get an idea about the space, this is the right project to purchase and to get an imagination before construction/ renovation. With over 8 years of experience in this industry, I care deepy about helping startups tell their story through design. The work I deliver is 100% original and high quality.</h6>
+      </div>
+      <div class="service">
+        <img src="img/s2.jpg" alt="Service 2">
+        <h3>Space Planning</h3>
+        <p>Nullam ultricies lobortis nulla eget dictum. Donec aliquet, metus eget porttitor pharetra, mi nisl aliquet lacus, sit amet lacinia nibh nibh at odio.</p>
+      </div>
+      <div class="service">
+        <img src="img/s7.avif" alt="Service 3">
+        <h3>You will get a 3d Interior Design for your room</h3>
+        <p><h6>IMPORTANT: Chat with me first, and we could work together on fulfilling your ideas at an appropriate deadline.
+
+          SERVICE:
+          3D Modeling and Rendering based on your plans/ideas. I could also help you conceptualize your interior room and suggest what materials/furnishings to use.</h6></p>
+      </div>
+    </div>
+  </section><section class="section3">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="img/im1.jpg" alt="Gallery 1">
+      <img src="img/im2.jpg" alt="Gallery 2">
+      <img src="img/im3.jpg" alt="Gallery 3">
+      <img src="img/im4.jpg" alt="Gallery 4">
+      <img src="img/im5.jpg" alt="Gallery 5">
+      <img src="img/im6.jpg" alt="Gallery 6">
+      
+
+    </div>
+    
+  </section>
+
+
+  
+
+  
+
+  <section class="section4">
+    
+    <h2>Contact Us</h2>
+    
+    <form action="/" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      
+      <button type="submit">Send Message</button>
+
+    </form>
+    
+</body>
+</html>
